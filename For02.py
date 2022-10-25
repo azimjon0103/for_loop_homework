@@ -1,9 +1,15 @@
-def main(n):
-    """
-    Return numbers from zero to n in a string view.
-    Args:
-        n: int
-    Returns:
-        string: return  answer
-    """
-    return
+# def main(n):
+#     """
+#     Return numbers from zero to n in a string view.
+#     Args:
+#         n: int
+#     Returns:
+#         string: return  answer
+#     """
+#     for  a in range(n) :
+#         return a
+# print(main(3))
+b=""
+for a in range(7) :
+    print(a)
+print(type(a))
