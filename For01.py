@@ -5,7 +5,7 @@ def main(n):
         n: int
     Returns:
         list: return  answer
-    """
+    """  
     b=[]
     for a in range(n): 
         b.append(a) 
