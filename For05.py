@@ -10,6 +10,5 @@ def main(A,B):
     b=[]
     for a in range(A,B+1):
         b.append(a)
-    #a=list(range(A,B+1))
     return b[::-1]
 print(main(5,9))
