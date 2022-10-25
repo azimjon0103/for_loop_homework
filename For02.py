@@ -9,5 +9,5 @@ def main(n):
     b=""
     for a in range(n): 
         b+=str(a)+","
-    return '"'+b[:-1]+'"'
+    return b[:-1]
 print(main(8))        
