@@ -4,6 +4,10 @@ def main(list1):
     Args:
         list1: list
     Returns:
-        list: return  answer
+        list: return  answer 
     """
-    return
+    b=[]
+    for a in range(list1):
+        b.title(a)
+    return b
+print(main(['rustam', 'diyor', 'alisher', 'bektosh']))    
