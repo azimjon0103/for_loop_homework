@@ -7,7 +7,8 @@ def main(list1):
         list: return  answer 
     """
     b=[]
-    for a in range(list1):
-        b.title(a)
+    i=0
+    for a in list1:
+        b.append(a.title())
     return b
 print(main(['rustam', 'diyor', 'alisher', 'bektosh']))    
